@@ -12,7 +12,7 @@ func main() {
 	}
 
 	fmt.Println("<mainpage>")
-	showMainPage(allNewsPosts[0:3])
+	showMainPage(allNewsPosts[0:3:3])
 	fmt.Println("</mainpage>")
 
 	fmt.Println("<all>")
