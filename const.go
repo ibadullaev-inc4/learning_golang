@@ -7,6 +7,10 @@ const (
 	BLUE
 	GREEN
 	BLACK
+	_
+	WHITE
+	_
+	GRAY
 )
 
 func main() {
@@ -14,4 +18,6 @@ func main() {
 	fmt.Println(BLUE)
 	fmt.Println(GREEN)
 	fmt.Println(BLACK)
+	fmt.Println(WHITE)
+	fmt.Println(GRAY)
 }
