@@ -11,6 +11,7 @@ const (
 	WHITE
 	_
 	GRAY
+	YELLOW = 100
 )
 
 func main() {
@@ -20,4 +21,5 @@ func main() {
 	fmt.Println(BLACK)
 	fmt.Println(WHITE)
 	fmt.Println(GRAY)
+	fmt.Println(YELLOW)
 }
