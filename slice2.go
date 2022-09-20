@@ -44,5 +44,5 @@ func printSlice(desc string, slice []int) {
 }
 
 func printLine() {
-
+	fmt.Println()
 }
