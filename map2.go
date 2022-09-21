@@ -10,9 +10,12 @@ func main() {
 	}
 	fmt.Println(users)
 
-	if name, ok := users["nariman"]; ok {
+	name, ok := users["nariman"]
+	if ok {
 		fmt.Println(name)
 	} else {
 		fmt.Println("Can't find key")
 	}
+
+	fmt.Println(name, ok)
 }
